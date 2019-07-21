@@ -76,6 +76,8 @@ public class FCFS {
 
 代码简单。任务执行只需按请求队列的顺序执行即可。
 
+![FCFS](https://github.com/lc-dmx/Scheduling-Algorithm/blob/master/img/Capture1.PNG)
+
 # 最短寻找楼层时间优先算法
 
 (SSTF, Shortest Seek Time First)
@@ -141,6 +143,8 @@ public class SSTF {
 ```
 
 与FCFS算法相比，SSTF算法会先对请求队列进行排序，每次都会优先处理距离最近的请求。
+
+![SSTF](https://github.com/lc-dmx/Scheduling-Algorithm/blob/master/img/Capture2.PNG)
 
 # 扫描算法
 
@@ -249,6 +253,8 @@ public class ScanComparator implements Comparator<Task> {
 ```
 
 扫描算法的响应时间方差比最短寻找楼层时间优先算法小，从统计学角度来讲，扫描算法要比最短寻找楼层时间优先算法稳定。
+
+![SCAN](https://github.com/lc-dmx/Scheduling-Algorithm/blob/master/img/Capture3.PNG)
 
 # LOOK算法
 
